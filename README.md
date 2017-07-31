@@ -1,4 +1,4 @@
-# Morse-py
+# MorsePy
 
 ## Description
 
