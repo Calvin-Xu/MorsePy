@@ -11,7 +11,7 @@ config = {
     'author_email': 'calvinxu806@vip.163.com',
     'version': '1.0.0',
     'install_requires': ['pytest'],
-    'packages': ['assets'],
+    'packages': ['morsepy'],
     'scripts': [],
     'name': 'morsepy'
 }

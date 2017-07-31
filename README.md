@@ -10,4 +10,4 @@ Import it to use the encoder / decoder in the Python shell!
 
 ## Credit
 
-Much credit goes to [CoryKramer]'s answer on StackOverflow.
+Much thanks for [CoryKramer](https://stackoverflow.com/users/2296458/corykramer)'s answer on StackOverflow.
