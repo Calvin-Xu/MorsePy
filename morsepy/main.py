@@ -22,7 +22,13 @@ encode = {'A': '.-',     'B': '-...',   'C': '-.-.',
 decode = {value:key for key,value in encode.items()}
 
 def encoder(message):
-    return ' '.join(encode.get(letter.upper()) for letter in message)
+    try:
+        return ' '.join(encode.get(letter.upper()) for letter in message)
+    except TypeError:
+        return "[Error]: Unsupported characters"
 
 def decoder(code):
-    return ''.join(decode.get(sequence) for sequence in code.split())
+    try:
+        return ''.join(decode.get(sequence) for sequence in code.split())
+    except TypeError:
+        return "[Error]: No space between characters / Unsupported characters"
